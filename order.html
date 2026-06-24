@@ -176,15 +176,8 @@
         <div class="row2">
           <div class="fg">
             <label for="quantity">Quantity <span class="req">*</span></label>
-            <div class="select-wrap">
-              <select id="quantity">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-              </select>
-            </div>
+            <input type="number" id="quantity" min="1" value="1" placeholder="Enter quantity"/>
+            <div class="err">Please enter a quantity of at least 1.</div>
           </div>
           <div class="fg">
             <label for="province">Province <span class="req">*</span></label>
